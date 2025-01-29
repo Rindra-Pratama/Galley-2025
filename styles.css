@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #000000;
+    line-height: 1.6;
+    min-height: 100vh;
+    
+}
+
+
+.box-text {
+    background-color: rgba(0, 0, 0, 0.2); 
+    color: rgb(255, 255, 255); 
+    padding: 20px;
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: justify;
+    max-width: 800px;
+    width: 90%; 
+    margin: auto;
+    
+   
+    
+    
+}
+
+
+
+header {
+    background-color: #21312a;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+.gallery-container {
+    column-count: 5; /* Jumlah kolom */
+    column-gap: 5px;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.gallery-item {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.gallery-item p {
+    padding: 0.5rem;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #343a40;
+    color: white;
+    margin-top: 2rem;
+}
